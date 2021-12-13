@@ -1,0 +1,61 @@
+/** @format */
+
+.game_board {
+  display: grid;
+  grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+  grid-gap: 2px;
+  width: 604px;
+  height: 604px;
+  margin: 20px auto;
+}
+
+.game_board a {
+  background: rgb(54, 54, 54);
+  text-decoration: none;
+  text-align: center;
+  line-height: 200px;
+  font-size: 150px;
+  color: rgb(223, 223, 223);
+}
+
+.game_board a:hover {
+  background: rgb(243, 225, 167);
+  text-shadow: 4px 2px 10px rgba(150, 150, 150, 1);
+}
+
+.four-in-line {
+  grid-template: repeat(10, 1fr) / repeat(10, 1fr);
+}
+
+.four-in-line a {
+  line-height: 56px;
+  font-size: 45px;
+}
+
+.btn {
+  background: rgb(226, 226, 226);
+  border: 1px solid #000;
+  border-radius: 20%;
+  color: rgb(68, 68, 68);
+  display: block;
+  margin: 20px auto;
+  padding: 5px 10px;
+  text-decoration: none;
+  width: fit-content;
+}
+
+h2 {
+  text-align: center;
+}
+
+.game_board .win_move {
+  background: rgb(192, 241, 31);
+}
+
+.message {
+  text-align: center;
+}
+
+.game_board .success {
+  background: rgb(226, 73, 73);
+}
