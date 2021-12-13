@@ -111,7 +111,7 @@ $('.reset').on('click', function(event) {
     event.preventDefault();
     tic_tac_toe.resetGame();
     buttons.text('');
-    $('.message').text('');
+    $('.message').html('&nbsp;');
     game_board.find('.success').removeClass('success');
 });
 
