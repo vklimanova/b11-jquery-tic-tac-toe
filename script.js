@@ -114,21 +114,3 @@ $('.reset').on('click', function(event) {
     $('.message').html('&nbsp;');
     game_board.find('.success').removeClass('success');
 });
-
-/******************************
- * Iezīmējam uzvaras šūnas.    *
- ******************************/
-
-/**
- * 
- * 2. Jautājumi? Kas? Kur? Idejas.
- * 
- * 
- * 3. Uzdevuma sadalīšana apakšuzdevumos.
- * - ✅noteikt šunas kuras ir jāiekrāso
- *  - ✅Uzvaras kobināciju ir jāsaglabā lokālajā atmiņā.
- * ✅- iekrāsot attiecīgās šunas.
- * - pie reset ir jāpazūd uzvaras gājienu iekrāsošana.
- * 
- *  2. Noņemt klasi success
- */
